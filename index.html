@@ -1,29 +1,155 @@
-<!DOCTYPE html><html lang="en">
+<!DOCTYPE html>
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Honeybee Hollow Daycare - Coming Soon</title>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet"><style>
-body { font-family: 'Poppins', sans-serif; margin: 0; background: #fffaf0; color:#333; }
-.hero { height:100vh; display:flex; flex-direction:column; justify-content:center; align-items:center; text-align:center; background: linear-gradient(135deg,#f4c430,#ffdd57); color:#222; padding:20px; }
-.hero h1 { font-size:3em; margin-bottom:10px; }
-.hero p { font-size:1.2em; max-width:600px; }
-.badge { background:#222; color:white; padding:8px 15px; border-radius:20px; margin-bottom:20px; font-size:0.9em; }
-.card { background:white; padding:25px; border-radius:15px; box-shadow:0 5px 20px rgba(0,0,0,0.1); margin-top:25px; max-width:500px; width:100%; }
-input, textarea { width:100%; padding:12px; margin:8px 0; border-radius:8px; border:1px solid #ddd; }
-button { background:#f4c430; border:none; padding:14px 24px; border-radius:30px; cursor:pointer; font-weight:bold; width:100%; }
-footer { position:absolute; bottom:10px; text-align:center; width:100%; font-size:0.9em; }
-</style></head><body><div class="hero"><div class="badge">🐝 Opening Soon in Locust Fork, Alabama</div><h1>Honeybee Hollow Daycare</h1>
+<title>Honeybee Hollow Daycare</title>
+
+<style>
+body { font-family: Arial; margin: 0; background: #fff8e7; color:#333; }
+header { background: #f4c430; text-align: center; padding: 25px; }
+header h1 { margin: 0; }
+nav { background: #333; text-align: center; padding: 10px; }
+nav a { color: white; margin: 0 15px; text-decoration: none; }
+section { padding: 40px 20px; }
+.card { background: white; padding: 20px; margin: 20px auto; max-width: 900px; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+.hero { text-align:center; }
+button { background:#f4c430; border:none; padding:12px 20px; border-radius:5px; cursor:pointer; }
+footer { background:#333; color:white; text-align:center; padding:15px; }
+ul { line-height: 1.6; }
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>🐝 Honeybee Hollow Daycare</h1>
 <p><strong>Where Busy Bees Grow Bright Futures</strong></p>
-<p>We’re preparing a safe, nurturing, and high-quality childcare experience for your family. Enrollment will open soon.</p><div class="card">
-<h3>Join Our Waitlist</h3>
-<p>Be the first to know when enrollment opens.</p><form>
-<input type="text" placeholder="Parent Name" required>
-<input type="email" placeholder="Email" required>
-<input type="text" placeholder="Child Age" required>
-<textarea placeholder="Questions or interest"></textarea>
-<button type="submit">Join Waitlist</button>
-</form></div></div><footer>
-<p>© 2026 Honeybee Hollow Daycare • Locust Fork, Alabama</p>
-</footer></body>
+<p>Learning, Laughter, and Love — All in One Hollow</p>
+</header>
+
+<nav>
+<a href="#about">About</a>
+<a href="#programs">Programs</a>
+<a href="#hours">Hours</a>
+<a href="#safety">Safety</a>
+<a href="#enroll">Enroll</a>
+</nav>
+
+<section class="hero">
+<h2>Welcome to Honeybee Hollow</h2>
+<p>Providing safe, nurturing, and high-quality childcare in Locust Fork, Alabama.</p>
+<button onclick="document.getElementById('enroll').scrollIntoView()">Enroll Now</button>
+</section>
+
+<section id="about">
+<div class="card">
+<h2>About Us</h2>
+<p>Honeybee Hollow is a nature-themed daycare serving children from 6 weeks to 12 years old. Our mission is to create a warm, safe, and engaging environment where children can learn, grow, and thrive.</p>
+<p>We focus on development, creativity, and building strong foundations for lifelong learning.</p>
+</div>
+</section>
+
+<section id="programs">
+<div class="card">
+<h2>Our Programs</h2>
+
+<h3>Infant Care (6 weeks - 18 months)</h3>
+<p>Individualized care including feeding, naps, and sensory development.</p>
+
+<h3>Toddler Care (18 months - 3 years)</h3>
+<p>Language development, play-based learning, and toilet training support.</p>
+
+<h3>Preschool (3 - 5 years)</h3>
+<p>Early learning including reading, math, science, and kindergarten readiness.</p>
+
+<h3>Before & After School (K–6)</h3>
+<ul>
+<li>Transportation included</li>
+<li>Homework help</li>
+<li>Snacks and activities</li>
+</ul>
+
+<h3>Additional Services</h3>
+<ul>
+<li>Part-time care options</li>
+<li>Transportation services</li>
+<li>Overnight care (based on demand)</li>
+</ul>
+
+</div>
+</section>
+
+<section id="hours">
+<div class="card">
+<h2>Hours of Operation</h2>
+<ul>
+<li>Full Day: 6:30 AM – 6:00 PM</li>
+<li>Before School: 6:30 AM – 7:30 AM</li>
+<li>After School: 3:00 PM – 6:00 PM</li>
+<li>Overnight Care: 6:00 PM – 6:30 AM (if offered)</li>
+</ul>
+</div>
+</section>
+
+<section>
+<div class="card">
+<h2>Daily Schedule (Preschool Example)</h2>
+<ul>
+<li>6:30 – 8:00: Arrival & Breakfast</li>
+<li>8:00 – 9:00: Learning Activities</li>
+<li>9:00 – 10:00: Outdoor Play</li>
+<li>10:00 – 11:30: Centers (Art, Math, Reading)</li>
+<li>11:30 – 12:00: Lunch</li>
+<li>12:00 – 2:00: Nap Time</li>
+<li>2:00 – 3:00: Snack & Story Time</li>
+<li>3:00 – 5:00: Enrichment Activities</li>
+<li>5:00 – 6:00: Pick-Up</li>
+</ul>
+</div>
+</section>
+
+<section id="safety">
+<div class="card">
+<h2>Safety & Licensing</h2>
+<ul>
+<li>Compliant with Alabama DHR regulations</li>
+<li>CPR & First Aid trained staff</li>
+<li>Background-checked employees</li>
+<li>Safe, structured environment</li>
+</ul>
+</div>
+</section>
+
+<section>
+<div class="card">
+<h2>Meals & Nutrition</h2>
+<p>We provide USDA-compliant meals including breakfast, lunch, and snacks with allergy accommodations available.</p>
+</div>
+</section>
+
+<section id="enroll">
+<div class="card">
+<h2>Enrollment</h2>
+<p>Ready to join the Honeybee Hollow family? Fill out the form below and we’ll contact you!</p>
+
+<form>
+<input type="text" placeholder="Parent Name" required><br><br>
+<input type="email" placeholder="Email" required><br><br>
+<input type="text" placeholder="Child Age" required><br><br>
+<textarea placeholder="Message"></textarea><br><br>
+<button type="submit">Submit</button>
+</form>
+
+</div>
+</section>
+
+<footer>
+<p>📍 Locust Fork, Alabama</p>
+<p>📞 Phone: (Coming Soon)</p>
+<p>📧 Email: info@honeybeehollow.com</p>
+<p>© 2026 Honeybee Hollow Daycare</p>
+</footer>
+
+</body>
 </html>
